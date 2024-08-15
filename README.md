@@ -5,10 +5,7 @@ Flutter Liquid Swipe : A flutter package that lets you add liquid swipe onboardi
 ![Screenshot 1](screenshots/screenshot1.jpg)
 ![Screenshot 2](screenshots/screenshot2.jpg)
 ![Screenshot 3](screenshots/screenshot3.jpg)
-
-### Video
-
-[Watch the video](screenshots/screen_record.mp4)
+[GIF](screenshots/recording.gif)
 
 To install this package, you can follow these steps:
 
