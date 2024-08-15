@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_liquid_swipe/liquid_swipe.dart';
+import 'package:flutter_liquid_swipe/flutter_liquid_swipe.dart';
 
 void main() {
   runApp(const LiquidSwipeApp());
@@ -30,7 +30,7 @@ class _LiquidSwipeOnboardingState extends State<LiquidSwipeOnboarding> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: LiquidSwipe(key: _key, children: [
-      LiquidSwipeCard(
+      FlutterLiquidSwipeCard(
           onTapName: () {},
           onSkip: () {},
           name: "Transcribe",
@@ -59,7 +59,7 @@ class _LiquidSwipeOnboardingState extends State<LiquidSwipeOnboarding> {
           child: ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Image.network("https://picsum.photos/300/200"))),
-      LiquidSwipeCard(
+      FlutterLiquidSwipeCard(
           onTapName: () => liquidSwipeController?.previous(),
           onSkip: () {},
           name: "Back",

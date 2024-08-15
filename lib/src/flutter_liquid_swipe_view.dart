@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
-import 'package:flutter_liquid_swipe/liquid_swipe.dart';
-import 'package:flutter_liquid_swipe/src/liquid_swipe_handle.dart';
-import 'package:flutter_liquid_swipe/src/liquid_swiper_clipper.dart';
-
+import 'package:flutter_liquid_swipe/flutter_liquid_swipe.dart';
+import 'package:flutter_liquid_swipe/src/flutter_liquid_swipe_handle.dart';
+import 'package:flutter_liquid_swipe/src/flutter_liquid_swiper_clipper.dart';
 
 class LiquidSwipe extends StatefulWidget {
   /// Draws an interactive liquid swipe flow whose children

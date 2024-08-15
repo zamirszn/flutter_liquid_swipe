@@ -1,8 +1,6 @@
-
-
 import 'package:flutter/material.dart';
 
-import 'liquid_swipe_data.dart';
+import 'flutter_liquid_swipe_data.dart';
 
 class LiquidSwipeClipper extends CustomClipper<Path> {
   /// Clipper that uses a liquid swipe path.

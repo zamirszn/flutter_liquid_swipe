@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class LiquidSwipeCard extends StatelessWidget {
-  const LiquidSwipeCard({
+class FlutterLiquidSwipeCard extends StatelessWidget {
+  const FlutterLiquidSwipeCard({
     super.key,
     required this.gradient,
     required this.buttonColor,

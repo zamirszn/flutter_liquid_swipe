@@ -1,7 +1,7 @@
 name: flutter_liquid_swipe
 description: "A flutter package that lets you add liquid swipe onboarding to your app"
 version: 0.0.1
-homepage: https://github.com/zamirszn/liquid_swipe
+homepage: https://github.com/zamirszn/flutter_liquid_swipe
 
 environment:
   sdk: ^3.5.0
